@@ -25,4 +25,4 @@ O público-alvo do Helpyng Hand são famílias necessitadas que foram afetadas p
 - Filipe Milaneze [(@phillCD)](https://github.com/phillCD)
 - Thiago Meller [(@thiagomeller)](https://github.com/thiagomeller)
 - Carine Ghisi Cadorin [(@CarineCadorin)](https://github.com/CarineCadorin)
-- Odin Ailon
+- Odin Ailon Nunes Fernandes 

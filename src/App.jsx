@@ -1,13 +1,33 @@
-import SignUp from './routes/SignUp';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import NavBar from './components/Navbar';
+import { About, SignUp, Donations } from './routes';
 
-function App() {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <SignUp/>
+  },
+  {
+    path: "/home",
+    element: <NavBar />,
+    children: [
+      {
+        path: "/home/about",
+        element: <About />
+      },
+      {
+        path: '/home/donations',
+        element: <Donations />
+      },
+    ],
+  },
+  
+]);
+
+export default function App() {
   
 
   return (
-    <>
-      <SignUp />
-    </>
+    <RouterProvider router={router} />
   )
 }
-
-export default App

@@ -1,5 +1,6 @@
 import React from "react";
 
+import NavBar from "../../components/Navbar";
 import Input from "../../components/Input";
 import SimpleButton from "../../components/SimpleButton";
 
@@ -8,6 +9,7 @@ import { Link } from "react-router-dom";
 
 export default function SignUp() {
     return (
+        
         <div className="container">
             <div className="formContainer">
                 <form className="form" action="/">
@@ -17,7 +19,7 @@ export default function SignUp() {
                     <Input label="Usuário" />
                     <Input label="Senha" type="password" />
                     <div className="buttonContainer">
-                        <Link className="button" to="/chat">
+                        <Link className="button" to="/home">
                             <SimpleButton 
                                 text="Entrar" 
                                 type="submit"

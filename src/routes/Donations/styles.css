@@ -1,0 +1,34 @@
+.donationsContainer {
+    display: flex;
+    height: 90.4vh;
+    background-color: rgb(200, 250, 233);
+    justify-content: center;
+}
+
+.title {
+    align-self: center;
+    font-weight: bold;
+    color: #64c2a1
+}
+
+.basketShow {
+    margin-top: 20px;
+    height: 50%;
+}
+
+.formContainer {
+    display: flex;
+    margin: 20px 0;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}

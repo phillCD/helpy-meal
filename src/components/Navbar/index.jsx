@@ -9,7 +9,7 @@ export default function NavBar() {
     <>
         <header className="navContainer">
             <nav>
-                <Link to="/home">
+                <Link to="/">
                     <img  className="logo" src="./src/assets/HelpyngHandLogo.png"/>
                 </Link>
                 <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>

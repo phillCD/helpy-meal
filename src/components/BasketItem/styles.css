@@ -1,0 +1,53 @@
+.basketTableList {
+    display: flex;
+    color: black;
+    padding: 5px;
+    width: 100%;
+    background-color: #c8fae9;
+    border-radius: 5px;
+    
+}
+
+.produtoList {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    border-right: 1px solid #64c2a1;
+    flex: 2;
+    color: black;
+}
+
+.produtoInput {
+    display: flex;
+    align-items: center;
+    height: 16px;
+    font-size: medium;
+    background-color: transparent;
+    border: none;
+    flex: 2
+}
+
+.produtoInput::placeholder {
+    color: #000;
+}
+
+.qntList {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    border-right: 1px solid #64c2a1;
+    flex: 1;
+    color: black;
+}
+
+.valorList {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    color: black;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: .5;
+}

@@ -1,12 +1,14 @@
 .donationsContainer {
     display: flex;
     height: 90.4vh;
-    background-color: rgb(200, 250, 233);
+    background-color: #c8fae9;
     justify-content: center;
 }
 
 .title {
-    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
     font-weight: bold;
     color: #64c2a1
 }
@@ -14,6 +16,7 @@
 .basketShow {
     margin-top: 20px;
     height: 50%;
+    width: 100%;
 }
 
 .formContainer {
@@ -31,4 +34,32 @@ form {
 
 .buttonContainer {
     margin-top: 20px;
+}
+
+.basketTable {
+    display: flex;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+    background-color: #64c2a1;
+    border-radius: 5px;
+    
+}
+
+.produto {
+    margin-right: 5px;
+    border-right: 1px solid white;
+    flex: 1
+}
+
+.qnt {
+    margin-right: 5px;
+    border-right: 1px solid white;
+    flex: 1
+}
+
+.valor {
+    flex: 1;
+    padding-right: 53px;
 }

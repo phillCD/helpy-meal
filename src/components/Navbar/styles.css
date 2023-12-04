@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Roboto:wght@400;700&display=swap');
+
 .active {
     background-color: #8fddc2;
+}
+
+.linkToLogin{ 
+    text-decoration: none;  
+}
+
+.linkToLogin:hover {
+    opacity: 0.8;
+}
+
+.navBarText {
+    color: white;
+    font-weight: bold;
+}
+
+.siteTitle {
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: normal;
+    padding-left: 5px;
+    color: white;
 }
 
 header .navContainer {
@@ -11,6 +33,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #69DFB5;
+    padding: 20px;
 }
 
 nav .logo {

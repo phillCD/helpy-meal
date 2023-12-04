@@ -1,6 +1,6 @@
 .donationsContainer {
     display: flex;
-    height: 90.4vh;
+    height: 92vh;
     background-color: #c8fae9;
     justify-content: center;
 }
@@ -22,7 +22,7 @@
 .formContainer {
     display: flex;
     margin: 20px 0;
-
+    width: 700px;
 }
 
 form {

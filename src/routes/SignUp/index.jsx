@@ -19,7 +19,7 @@ export default function SignUp() {
                     <Input label="Usuário" />
                     <Input label="Senha" type="password" />
                     <div className="buttonContainer">
-                        <Link className="button" to="/home">
+                        <Link className="button" to="/about">
                             <SimpleButton 
                                 text="Entrar" 
                                 type="submit"

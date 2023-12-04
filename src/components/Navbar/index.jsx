@@ -9,9 +9,9 @@ export default function NavBar() {
     <>
         <header className="navContainer">
             <nav>
-                <Link to="/">
-                    <img  className="logo" src="./src/assets/HelpyngHandLogo.png"/>
-                </Link>
+                <div>
+                    <div className="navBarText">Olá, Usuário! Bem vindo a <Link className="linkToLogin" to="/"><span className="siteTitle">Helpyng Hand</span></Link></div>
+                </div>
                 <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
                     <span>spam</span>
                     <span></span>
@@ -19,10 +19,10 @@ export default function NavBar() {
                 </div>
                 <ul className={menuOpen ? 'open' : ''}>
                     <li>
-                        <NavLink to="/home/about">Sobre nós</NavLink>
+                        <NavLink to="/about">Sobre nós</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/home/donations">Fazer uma doação</NavLink>
+                        <NavLink to="/donations">Fazer uma doação</NavLink>
                     </li>
                 </ul>
             </nav>

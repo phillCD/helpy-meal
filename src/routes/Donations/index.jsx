@@ -66,16 +66,18 @@ export default function Donations() {
     return (
         <div className="donationsContainer">
             <div className="formContainer">
-                <div className="basketShow">
-                    <div className="title">Sua Cesta:</div>
-                    <div className="basketTable">
-                        <div className="produto">Produto</div>
-                        <div className="qnt">Quantidade</div>
-                        <div className="valor">Valor</div>
+                <div className="parent-container">
+                    <div className="basketShow">
+                        <div className="title">Sua Cesta:</div>
+                        <div className="basketTable">
+                            <div className="produto">Produto</div>
+                            <div className="qnt">Quantidade</div>
+                            <div className="valor">Valor</div>
+                        </div>
+                        {produtos.map(({id, name, qtd, valor}) => 
+                            <BasketItem key={id} id={id} produto={name} quantidade={qtd} valor={valor} action={() => removeProduto(id)} editAction={editarProduto}/>
+                        )}
                     </div>
-                    {produtos.map(({id, name, qtd, valor}) => 
-                        <BasketItem key={id} id={id} produto={name} quantidade={qtd} valor={valor} action={() => removeProduto(id)} editAction={editarProduto}/>
-                    )}
                 </div>
                 <form onSubmit={addProduto}>
                     <div className="title">Cadastre sua Cesta!</div>

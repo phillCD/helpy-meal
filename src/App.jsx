@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import NavBar from './components/Navbar';
-import { About, SignUp, Donations } from './routes';
+import { About, SignUp, Donations, Dashboard } from './routes';
+import Institution from './routes/Institutions';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,14 @@ const router = createBrowserRouter([
         path: '/donations',
         element: <Donations />
       },
+      {
+        path: '/institutions',
+        element: <Institution />
+      },
+      {
+        path: '/dashboard',
+        element: <Dashboard />
+      }
     ],
   },
   

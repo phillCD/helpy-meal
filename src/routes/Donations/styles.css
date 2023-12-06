@@ -63,3 +63,9 @@ form {
     flex: 1;
     padding-right: 53px;
 }
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

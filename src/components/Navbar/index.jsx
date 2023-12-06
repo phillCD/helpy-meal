@@ -24,6 +24,12 @@ export default function NavBar() {
                     <li>
                         <NavLink to="/donations">Fazer uma doação</NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/institutions">Instituições</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/dashboard">Dashboard</NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>
